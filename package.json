@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/astenlund/NodeMangaScraper/issues"
   },
-  "homepage": "https://github.com/astenlund/NodeMangaScraper"
+  "homepage": "https://github.com/astenlund/NodeMangaScraper",
+  "dependencies": {
+    "puppeteer": "^0.13.0"
+  }
 }
