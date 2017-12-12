@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/astenlund/NodeMangaScraper",
   "dependencies": {
+    "bluebird": "^3.5.1",
     "download": "^6.2.5",
     "nconf": "^0.9.1",
     "puppeteer": "^0.13.0"
