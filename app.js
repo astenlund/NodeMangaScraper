@@ -27,7 +27,7 @@ async function main() {
         const domain  = getDomain(url);
         const scraper = scrapers[domain];
 
-        console.log(`Downloading manga: ${url} (currently at chapter ${chapter})`);
+        console.log(`Checking ${title} for new chapters (currently at ${chapter})`);
 
         if (scraper === undefined) {
             console.error(`ERROR: There is no scraper defined for this website: ${domain}\n`);
